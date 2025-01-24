@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | Time tracking dashboard</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="container-grid">
+      <div class="card main">
+        <div class="card-main-top">
+          <div class="card-main-top-img">
+            <img src="./images/image-jeremy.png" alt="Jeremy">
+          </div>
+          <div class="card-main-top-text">
+            <small>Report for</small>
+            <h2>Jeremy Robson</h2>
+          </div>
+        </div>
+        <div class="card-main-nav">
+          <ul>
+            <li id="daily" class="periodbtn">Daily</li>
+            <li id="weekly" class="periodbtn active">Weekly</li>
+            <li id="monthly" class="periodbtn">Monthly</li>
+          </ul>
+        </div>
+      </div>
+      <div class="card work">
+        <div class="card-background">
+        </div>
+        <div class="card-content">
+          <div class="card-content-title">
+            <span>Work</span>
+            <img src="./images/icon-ellipsis.svg" alt="">
+          </div>
+          <div class="card-content-hours">
+            <span id="timeWorkcurrent">32hrs</span>
+            <div class="period">
+              <p class="periodDay hide">Yesterday - </p>
+              <p class="periodWeek">Last Week - </p>
+              <p class="periodMonth hide">Last Month - </p>
+              <span id="periodWork">36hrs</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card play">
+        <div class="card-background">
+        </div>
+        <div class="card-content">
+          <div class="card-content-title">
+            <span>Play</span>
+            <img src="./images/icon-ellipsis.svg" alt="">
+          </div>
+          <div class="card-content-hours">
+            <span id="timePlaycurrent">10hrs</span>
+            <div class="period">
+              <p class="periodDay hide">Yesterday - </p>
+              <p class="periodWeek">Last Week - </p>
+              <p class="periodMonthly hide">Last Month - </p>
+              <span id="periodPlay">8hrs</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card study">
+        <div class="card-background">
+        </div>
+        <div class="card-content">
+          <div class="card-content-title">
+            <span>Study</span>
+            <img src="./images/icon-ellipsis.svg" alt="">
+          </div>
+          <div class="card-content-hours">
+            <span id="timeStudycurrent">32hrs</span>
+            <div class="period">
+              <p class="periodDay hide">Yesterday - </p>
+              <p class="periodWeek">Last Week - </p>
+              <p class="periodMonth hide">Last Month - </p>
+              <span id="periodStudy">7hrs</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card exercise">
+        <div class="card-background">
+        </div>
+        <div class="card-content">
+          <div class="card-content-title">
+            <span>Exercise</span>
+            <img src="./images/icon-ellipsis.svg" alt="">
+          </div>
+          <div class="card-content-hours">
+            <span id="timeExercisecurrent">4hrs</span>
+            <div class="period">
+              <p class="periodDay hide">Yesterday - </p>
+              <p class="periodWeek">Last Week - </p>
+              <p class="periodMonth hide">Last Month - </p>
+              <span id="periodExercise">5hrs</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card social">
+        <div class="card-background">
+        </div>
+        <div class="card-content">
+          <div class="card-content-title">
+            <span>Social</span>
+            <img src="./images/icon-ellipsis.svg" alt="">
+          </div>
+          <div class="card-content-hours">
+            <span id="timeSocialcurrent">5hrs</span>
+            <div class="period">
+              <p class="periodDay hide">Yesterday - </p>
+              <p class="periodWeek">Last Week - </p>
+              <p class="periodMonth hide">Last Month - </p>
+              <span id="periodSocial">10hrs</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card care">
+        <div class="card-background">
+        </div>
+        <div class="card-content">
+          <div class="card-content-title">
+            <span>Self Care</span>
+            <img src="./images/icon-ellipsis.svg" alt="">
+          </div>
+          <div class="card-content-hours">
+            <span id="timeCarecurrent">2hrs</span>
+            <div class="period">
+              <p class="periodDay hide">Yesterday - </p>
+              <p class="periodWeek">Last Week - </p>
+              <p class="periodMonth hide">Last Month - </p>
+              <span id="periodCare">2hrs</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Alleson Sales</a>.
+    </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
