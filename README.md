@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - [Solution URL](https://github.com/allesonsales/time-tracking-dashboard)
-- [Live site URL](https://your-live-site-url.com)
+- [Live site URL](https://allesonsales.github.io/time-tracking-dashboard/)
 
 ## My process
 
@@ -59,4 +59,4 @@ With this project I put Fetch into practice, I had difficulty, but with a lot of
 
 ## Acknowledgments
 
--Kai Pimenta - [@kaipimenta](https://github.com/kaimesmo)
+-GitHub - [@kaipimenta](https://github.com/kaimesmo)
