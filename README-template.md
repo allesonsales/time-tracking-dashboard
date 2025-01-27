@@ -59,4 +59,4 @@ With this project I put Fetch into practice, I had difficulty, but with a lot of
 
 ## Acknowledgments
 
--Kai Pimenta - [@kaipimenta] (https://github.com/kaimesmo)
+- GitHub - [@kaipimenta](https://github.com/kaimesmo)
